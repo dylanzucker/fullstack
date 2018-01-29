@@ -1,0 +1,44 @@
+/*
+/* Palette URL: http://paletton.com/#uid=13s0u0kyxEAkRRCqtKY-jq4Akhf */
+/* As hex codes
+Blue color scheme
+#0982BD  Main Primary color. Banners
+#FFFFFF  White. For text inside banners
+#57B6E4  Light blue.
+#2C9BD0 Second lightest blues
+#065A83 Second darkest blue
+#043C57 Darkest blues
+*/
+#heading{
+  /*background-color:#0982BD;*/
+  font-family:"Merriweather";
+  padding:1em;
+  color:#FFFFFF;
+  background-color: #0982BD;
+  clear:left;
+  margin-left: 0;
+}
+h2{
+  font-family:"Lato";
+  color:#065A83;
+}
+h3{
+  font-family: "Lato";
+  color:#065A83;
+}
+p{
+  font-family:"Lato";
+  color:#043C57;
+}
+.font_Lobster{
+  font-family:"Lobster";
+}
+.font_Cairo{
+  font-family:"Cairo";
+}
+.font_Lato{
+  font-family:"Lato";
+}
+.font_Merriweather{
+  font-family:"Merriweather";
+}
