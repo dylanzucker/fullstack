@@ -12,11 +12,12 @@ Blue color scheme
 #heading{
   /*background-color:#0982BD;*/
   font-family:"Merriweather";
-  padding:1em;
+  padding:.5em;
   color:#FFFFFF;
   background-color: #0982BD;
   clear:left;
-  margin-left: 0;
+  margin-left: -8px;
+  margin-right:-8px;
 }
 h2{
   font-family:"Lato";
