@@ -16,8 +16,8 @@ Blue color scheme
   color:#FFFFFF;
   background-color: #0982BD;
   clear:left;
-  margin-left: -8px;
-  margin-right:-8px;
+  left: 0;
+  right: 0;
 }
 h2{
   font-family:"Lato";
