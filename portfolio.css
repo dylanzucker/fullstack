@@ -11,6 +11,7 @@ Blue color scheme
 */
 #heading{
   /*background-color:#0982BD;*/
+  /*position: absolute;*/
   font-family:"Merriweather";
   padding:.5em;
   color:#FFFFFF;
