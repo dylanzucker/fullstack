@@ -1,0 +1,137 @@
+* {
+     box-sizing: border-box; /* height/width includes content padding and borders */
+   }
+   div{
+     /*border: 1px solid pink;*/
+     padding: 5px;
+   }
+   .container{
+     width:100%;
+
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .row{
+
+     display: flex;
+     flex-wrap: wrap;
+
+   }
+   .me{
+     background: 1px solid;
+     background-color: #57B6E4;
+     width: 80%;
+     position: static; /* fill the box */
+   }
+   .profilepic{
+
+     background-color: #57B6E4;
+     background-image: url("../profile.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+
+
+     background-position: top right;
+     width: 20%;
+
+     position: static;
+
+   }
+   .sampleCW{
+     background: 1px solid;
+     background-color: #57B6E4;
+   }
+   .column, .oddColumn {
+     font-family:"Lato";
+     color:#043C57;
+     background-color:#57B6E4 ;
+     padding: 5px;
+     border-color: #2C9BD0;
+     border: 1px solid;
+
+   }
+
+   .feature {
+     height: 300px;
+
+     position: static;
+     top: 0;
+     left:0;
+     right:0;
+     bottom: 0;
+   }
+
+   /* Keep img from overflowing feature container */
+   .feature img{
+     max-width: 100%;
+     max-height: 100%;
+     width: 100%;
+   }
+
+   .column{
+     width: 100%;
+     flex-shrink: 0;
+     flex-grow: 1;
+   }
+   p {
+     font-family:"Lato";
+     color:#043C57;
+
+   }
+   h1, h2, h3 {
+     font-family:"Lato";
+     color:#065A83;
+   }
+
+   /* media queries */
+
+   /* large screen */
+   @media (min-width: 950px){
+     .container{
+       /*position: relative;*/
+       /*left: 10%;*/
+       width:80%;
+     }
+     .column{
+       width:33%;
+       background-color:#57B6E4 ;
+       padding: 5px;
+      }
+     .oddColumn{
+       width:33%;
+      background-color:#57B6E4 ;
+      padding: 5px;
+     }
+     .profilepic{
+     background-position: top right;
+       width: 50%;
+
+     }
+
+   }
+   @media (min-width: 500px) and (max-width: 949px){
+     .container{
+       /*position: relative;*/
+       /*left: 5%; */
+       width:90%;
+     }
+     .column{
+       width:50%;
+       background-color:#57B6E4 ;
+       padding: 5px;
+      }
+     .oddColumn{
+       width:100%;
+       background-color:#57B6E4 ;
+       padding: 5px;
+    }
+    .profilepic{
+
+     width: 35%;
+     background-position: top right;
+    }
+    .me{
+      width:65%
+    }
+
+   }
