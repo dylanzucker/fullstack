@@ -103,9 +103,11 @@
       padding: 5px;
      }
      .profilepic{
-     background-position: top right;
+       background-position: top right;
        width: 50%;
-
+     }
+     .me {
+       width:50%;
      }
 
    }
