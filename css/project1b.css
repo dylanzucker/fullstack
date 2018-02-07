@@ -5,9 +5,13 @@
      /*border: 1px solid pink;*/
      padding: 5px;
    }
-  /* .container{
+   .container{
      margin-left: auto;
      margin-right: auto;
+   }
+   html, body {
+     margin:0px;
+     padding:0px;
    }
    /*.row{
 
@@ -21,9 +25,19 @@
 
      position: static; /* fill the box */
    }
+   #banner{
+     position: static;
+     padding:.5em;
+     padding-left: 1em; 
+     color: #FFFFFF;
+     background-color: #0982BD;
+     background-size:contain;
+     background-position: left;
+
+   }
    .profilepic{
 
-     background-image: url("../profile2.jpg");
+     background-image: url("../images/profile2.jpg");
      background-repeat: no-repeat;
      background-size: contain;
 
