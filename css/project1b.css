@@ -35,6 +35,9 @@
      background-position: left;
 
    }
+   nav {
+     margin-bottom: .5em;
+   }
    .profilepic{
 
      background-image: url("../images/profile2.jpg");

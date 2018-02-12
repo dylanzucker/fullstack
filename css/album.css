@@ -1,6 +1,12 @@
 
-section.backg {
-  background-image: url("images/background.jpg");
+.jumbotron {
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
+  background-position: center;
+  color: #FFFF;
+}
+
+ {
+  color: #FFFF;
 }
