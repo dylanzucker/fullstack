@@ -50,6 +50,11 @@
      position: static;
 
    }
+   .profile{
+     position: right;
+     text-align: right;
+
+   }
    .sampleCW{
      background: 1px solid;
      background-color: #57B6E4;
