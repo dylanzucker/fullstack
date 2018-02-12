@@ -9,7 +9,7 @@ Blue color scheme
 #065A83 Second darkest blue
 #043C57 Darkest blues
 */
-#heading{
+#heading {
   /*background-color:#0982BD;*/
   /*position: absolute;*/
   font-family:"Merriweather";
@@ -20,27 +20,27 @@ Blue color scheme
   left: 0;
   right: 0;
 }
-h2{
+h2 {
   font-family:"Lato";
   color:#065A83;
 }
-h3{
+h3 {
   font-family: "Lato";
   color:#065A83;
 }
-p{
+p {
   font-family:"Lato";
   color:#043C57;
 }
-.font_Lobster{
+.font_Lobster {
   font-family:"Lobster";
 }
-.font_Cairo{
+.font_Cairo {
   font-family:"Cairo";
 }
-.font_Lato{
+.font_Lato {
   font-family:"Lato";
 }
-.font_Merriweather{
+.font_Merriweather {
   font-family:"Merriweather";
 }
