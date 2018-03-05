@@ -1,6 +1,6 @@
 
 
-fetch("http://dog.ceo/api/breeds/list").then(function(resp) {
+fetch("https://dog.ceo/api/breeds/list").then(function(resp) {
   return resp.json()
 }).then(function(response) {
   document.getElementById("breedcontainer")
@@ -15,19 +15,19 @@ fetch("http://dog.ceo/api/breeds/list").then(function(resp) {
 function handleButtonClick (event) {
   var sel = document.getElementById("selector")
   var val = sel.options[sel.selectedIndex].value;
-  fetch("http://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
+  fetch("https://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
     return resp.json()
   }).then(response => {
       console.log(response)
       document.getElementById("doggo1").innerHTML='<img src="'+response.message+'">'
   })
-  fetch("http://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
+  fetch("https://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
     return resp.json()
   }).then(response => {
       console.log(response)
       document.getElementById("doggo2").innerHTML='<img src="'+response.message+'">'
   })
-  fetch("http://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
+  fetch("https://dog.ceo/api/breed/"+val+"/images/random").then(resp => {
   return resp.json()
   }).then(response => {
     console.log(response)
