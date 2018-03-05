@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dogs!</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./DogAPI.css">
+  </head>
+<body>
+    <nav class="navbar navbar-expand bg-primary navbar-dark">
+      <a class = "text-light navbar-brand" href = "#">DogAPI</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="text-light nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+         </li>
+       </ul>
+     </div>
+    </nav>
+    <div class="container">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class = "col-2" id="breedcontainer"></div>
+      <!--<div class="col-4"></div>
+      <div class="col-4"></div>-->
+      <button class="col-2 btn btn-primary" id="show">DOGS!</button>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center w-100 h-100">
+        <div class="m-1" id="doggo1"></div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center w-100 h-100">
+        <div class="m-1" id="doggo2"></div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 text-center w-100 h-100">
+        <div class="m-1" id="doggo3"></div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="DogAPI.js"></script>
+
+</body>
+</html>
