@@ -12,7 +12,7 @@ class Course extends Component {
   render() {
     return (
       <TableRow>
-        <TableRowColumn>{this.props.course}</TableRowColumn> //Maybe the Course + Title
+        <TableRowColumn>{this.props.course}</TableRowColumn> 
         <TableRowColumn>{this.props.prof}</TableRowColumn>
         <TableRowColumn>{this.props.time}</TableRowColumn>
         <TableRowColumn>{this.props.crn}</TableRowColumn>

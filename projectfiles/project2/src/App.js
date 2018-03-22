@@ -55,8 +55,11 @@ class App extends Component {
             console.log(data)
             this.setState({result:data})
           }
-          else{
+          else if (this.state.pageNumber > 0){
             this.setState({pageNumber: this.state.pageNumber-1})
+          }
+          else{
+            this.setState({pageNumber:0})
           }
         }
        )
@@ -85,12 +88,14 @@ class App extends Component {
         <IconButton onClick={this.getPageModifier(-1)}>
           <LeftArrow/>
         </IconButton>
+
         <IconButton onClick={this.getPageModifier(1)}>
           <RightArrow/>
         </IconButton>
         </div>
         <CourseList courses={this.state.result} />
 
+        <p>Page {this.state.pageNumber}</p>
       </div>
     );
   }
